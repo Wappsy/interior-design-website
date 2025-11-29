@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Luxe Interiors</title>
+    <meta name="description" content="Get in touch with our interior design team. Schedule a consultation to discuss your project.">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <nav>
+            <a href="index.html" class="logo">Luxe<span>Interiors</span></a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" style="background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://images.pexels.com/photos/1457842/pexels-photo-1457842.jpeg?auto=compress&cs=tinysrgb&w=1920') center/cover; height: 60vh;">
+        <div class="hero-content">
+            <h1>Get In Touch</h1>
+            <p>Let's bring your vision to life together</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="section-title">
+            <h2>Contact Us</h2>
+            <p>We'd love to hear about your project</p>
+        </div>
+
+        <div class="contact-container">
+            <!-- Contact Form -->
+            <div class="contact-form">
+                <h3 style="color: #2c3e50; margin-bottom: 1.5rem; font-size: 1.8rem;">Send Us a Message</h3>
+                <form>
+                    <div class="form-group">
+                        <label for="name">Full Name *</label>
+                        <input type="text" id="name" name="name" required placeholder="John Doe">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address *</label>
+                        <input type="email" id="email" name="email" required placeholder="john@example.com">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" placeholder="+1 (555) 123-4567">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="project">Project Type</label>
+                        <select id="project" name="project" style="width: 100%; padding: 1rem; border: 1px solid #ddd; border-radius: 5px; font-family: inherit;">
+                            <option value="">Select a service...</option>
+                            <option value="residential">Residential Design</option>
+                            <option value="commercial">Commercial Design</option>
+                            <option value="renovation">Renovation</option>
+                            <option value="consultation">Consultation Only</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="budget">Budget Range</label>
+                        <select id="budget" name="budget" style="width: 100%; padding: 1rem; border: 1px solid #ddd; border-radius: 5px; font-family: inherit;">
+                            <option value="">Select your budget...</option>
+                            <option value="10k-25k">$10,000 - $25,000</option>
+                            <option value="25k-50k">$25,000 - $50,000</option>
+                            <option value="50k-100k">$50,000 - $100,000</option>
+                            <option value="100k+">$100,000+</option>
+                            <option value="not-sure">Not Sure Yet</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Tell Us About Your Project *</label>
+                        <textarea id="message" name="message" required placeholder="Describe your project, timeline, and any specific requirements..."></textarea>
+                    </div>
+
+                    <button type="submit" class="submit-button">Send Message</button>
+                </form>
+            </div>
+
+            <!-- Contact Information -->
+            <div class="contact-info">
+                <h3 style="color: #2c3e50; margin-bottom: 2rem; font-size: 1.8rem;">Contact Information</h3>
+                
+                <div class="info-item">
+                    <div class="info-icon">📍</div>
+                    <div>
+                        <h3>Visit Our Studio</h3>
+                        <p>123 Design Avenue<br>New York, NY 10001<br>United States</p>
+                    </div>
+                </div>
+
+                <div class="info-item">
+                    <div class="info-icon">📞</div>
+                    <div>
+                        <h3>Call Us</h3>
+                        <p>Main: +1 (555) 123-4567<br>Mobile: +1 (555) 987-6543</p>
+                    </div>
+                </div>
+
+                <div class="info-item">
+                    <div class="info-icon">✉️</div>
+                    <div>
+                        <h3>Email Us</h3>
+                        <p>info@luxeinteriors.com<br>projects@luxeinteriors.com</p>
+                    </div>
+                </div>
+
+                <div class="info-item">
+                    <div class="info-icon">🕐</div>
+                    <div>
+                        <h3>Business Hours</h3>
+                        <p>Monday - Friday: 9:00 AM - 6:00 PM<br>Saturday: 10:00 AM - 4:00 PM<br>Sunday: Closed</p>
+                    </div>
+                </div>
+
+                <div style="margin-top: 2rem; padding-top: 2rem; border-top: 1px solid #ddd;">
+                    <h3 style="color: #2c3e50; margin-bottom: 1rem;">Follow Us</h3>
+                    <div class="social-links" style="justify-content: start;">
+                        <a href="#" aria-label="Facebook" style="color: #2c3e50;">📘</a>
+                        <a href="#" aria-label="Instagram" style="color: #2c3e50;">📷</a>
+                        <a href="#" aria-label="Pinterest" style="color: #2c3e50;">📌</a>
+                        <a href="#" aria-label="LinkedIn" style="color: #2c3e50;">💼</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section (Placeholder) -->
+    <section style="padding: 0;">
+        <div style="width: 100%; height: 400px; background: linear-gradient(135deg, #e0e0e0 0%, #f5f5f5 100%); display: flex; align-items: center; justify-content: center; color: #666;">
+            <div style="text-align: center;">
+                <div style="font-size: 4rem; margin-bottom: 1rem;">🗺️</div>
+                <p style="font-size: 1.2rem;">Interactive Map Location</p>
+                <p style="font-size: 0.9rem; margin-top: 0.5rem;">123 Design Avenue, New York, NY 10001</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section style="background: #f8f9fa; padding: 5rem 5%;">
+        <div class="section-title">
+            <h2>Frequently Asked Questions</h2>
+            <p>Quick answers to common questions about our services</p>
+        </div>
+
+        <div style="max-width: 800px; margin: 3rem auto;">
+            <div style="background: white; padding: 2rem; margin-bottom: 1.5rem; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+                <h3 style="color: #2c3e50; margin-bottom: 1rem;">How much do your services cost?</h3>
+                <p style="color: #666; line-height: 1.8;">Our pricing varies depending on the scope and complexity of the project. We offer flexible packages starting from consultation-only services to full-service design and implementation. Contact us for a personalized quote.</p>
+            </div>
+
+            <div style="background: white; padding: 2rem; margin-bottom: 1.5rem; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+                <h3 style="color: #2c3e50; margin-bottom: 1rem;">How long does a typical project take?</h3>
+                <p style="color: #666; line-height: 1.8;">Project timelines vary based on size and complexity. A single room design might take 4-6 weeks, while a full home renovation could take 3-6 months. We'll provide a detailed timeline during the consultation.</p>
+            </div>
+
+            <div style="background: white; padding: 2rem; margin-bottom: 1.5rem; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+                <h3 style="color: #2c3e50; margin-bottom: 1rem;">Do you work with my existing furniture?</h3>
+                <p style="color: #666; line-height: 1.8;">Absolutely! We're happy to incorporate your existing pieces into the new design. We'll assess what works and make recommendations for any additions or changes needed to achieve your desired look.</p>
+            </div>
+
+            <div style="background: white; padding: 2rem; margin-bottom: 1.5rem; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+                <h3 style="color: #2c3e50; margin-bottom: 1rem;">What areas do you serve?</h3>
+                <p style="color: #666; line-height: 1.8;">We primarily serve the New York metropolitan area, but we're open to taking on projects in other locations. Contact us to discuss your project location and we'll see how we can help.</p>
+            </div>
+
+            <div style="background: white; padding: 2rem; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+                <h3 style="color: #2c3e50; margin-bottom: 1rem;">Can I see examples of your work in person?</h3>
+                <p style="color: #666; line-height: 1.8;">Yes! We're happy to arrange showroom visits or site tours of completed projects (with client permission). Schedule a consultation to discuss viewing opportunities.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section style="background: linear-gradient(135deg, #2c3e50 0%, #3498db 100%); color: white; text-align: center; padding: 5rem 5%;">
+        <h2 style="font-size: 2.5rem; margin-bottom: 1rem;">Ready to Transform Your Space?</h2>
+        <p style="font-size: 1.2rem; margin-bottom: 2rem; opacity: 0.9;">Schedule a free consultation to discuss your project</p>
+        <a href="#contact" class="cta-button">Scroll to Form</a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <h3>Luxe<span style="color: #d4af37;">Interiors</span></h3>
+            <p style="margin: 1rem 0;">Creating beautiful spaces that inspire</p>
+            <div class="social-links">
+                <a href="#" aria-label="Facebook">📘</a>
+                <a href="#" aria-label="Instagram">📷</a>
+                <a href="#" aria-label="Pinterest">📌</a>
+                <a href="#" aria-label="LinkedIn">💼</a>
+            </div>
+            <p>&copy; 2024 Luxe Interiors. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
